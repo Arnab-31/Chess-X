@@ -1,0 +1,150 @@
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(34, 34, 34);
+}
+
+.board_container {
+    width: 600px;
+    height: 600px;
+}
+
+.board {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 12.5%;
+    height: 12.5%;
+}
+
+.promote-square {
+    width: 50%;
+    height: 50%;
+}
+
+.square-black {
+    background: white
+}
+
+.square-white {
+    background: rgb(99, 90, 90)
+}
+
+.board-square {
+    width: 100%;
+    height: 100%;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.piece-container {
+    cursor: grab;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.piece {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.vertical_text {
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    font-family: sans-serif;
+    padding: 10px;
+    color: white;
+}
+
+.vertical_text button {
+    margin-top: 20px;
+    cursor: pointer;
+    background: rgb(63, 63, 63);
+    border: 2px solid white;
+    border-radius: 10px;
+
+} 
+
+.evalBar{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.progress1 {
+    width:50px;
+   
+    position:relative;
+    background-color: black;
+}
+
+.progress2 {
+    width:50px;
+
+    position:relative;
+    background-color: white;
+}
+
+
+.players{
+    display: flex;
+    padding: 20px;
+    max-width: 15vw;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: space-between;
+}
+
+.playerName{
+    font-family: 'Cinzel', serif;
+    font-size: 17px;
+    color: white;
+}
+
+.message{
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    color: white;
+}
+
+.share{
+    display: flex;
+    padding: 20px;
+    max-width: 10vw;
+    flex-direction: column;
+    height: 80vh;
+    justify-content:center;
+    font-size: 10px;
+}
+
+.shareText {
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+    color: black;
+    padding: 5px;
+    background-color: white;
+    font-weight: 700;
+}
+
+.shareBtn{
+    margin-top: 5px;
+    border: 0;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.shareBtn:hover{
+    background-color: rgb(204, 204, 204);
+}

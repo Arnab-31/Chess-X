@@ -1,0 +1,196 @@
+
+.nav{
+    width: 90%;
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Cinzel', serif;
+}
+
+
+.leftNav{
+    display: flex;
+}
+
+
+.logo{
+    height: 70px;
+    margin-right: 5px;
+}
+
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Cinzel', serif;
+}
+
+
+.rightNav{
+    display: flex;
+}
+.navLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navLinks p{
+    font-size: 16px;
+}
+
+
+.mode{
+
+    min-width: 200px;
+    min-height: 100px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.7s;
+    max-width: 23%;
+    padding-top: 80px;
+}
+
+.bg1{
+    background-image: linear-gradient(45deg, rgba(
+        65, 64, 64, 0.3), rgba(65, 64, 64, 0.3)), url("../../assets/pawn.jpg"); 
+}
+
+.bg2{
+    background-image: linear-gradient(45deg, rgba(
+        65, 64, 64, 0.4), rgba(65, 64, 64, 0.4)),url("../../assets/Bishop.jpg"); 
+}
+
+.bg3{
+    background-image: linear-gradient(45deg, rgba(
+        65, 64, 64, 0.5), rgba(65, 64, 64, 0.5)),url("../../assets/rook.jpg"); 
+}
+
+.bg4{
+    background-image: linear-gradient(45deg, rgba(
+        65, 64, 64, 0.5), rgba(65, 64, 64, 0.5)),url("../../assets/queen.jpg"); 
+}
+
+.mode:hover{
+    transform: scale(1.1); 
+}
+
+.mode h2{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.modesContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-family: 'Cinzel', serif;
+}
+
+.Link {
+    text-decoration: none;
+}
+.mainContainer{
+   
+    
+}
+
+
+
+.header{
+    padding:  0 10%;
+    font-family: 'Cinzel', serif;
+    margin-bottom: 60px;
+}
+
+.header h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.modeBox{
+    margin: 0 auto;
+    width: fit-content;
+    margin-bottom: 5%;
+}
+
+.modeHeading{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.modeContainer{
+    display: flex;
+    margin-top: 20px;
+}
+.modeInput{
+    margin-right: 120px;
+}
+.modeText{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.playerName{
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.inputBox{
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    height: 20px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.center{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.colorPicker{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.colorContainer{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    width: 40vw;
+}
+
+
+.btn{
+    font-size: 20px;
+    padding: 10px 5px;
+    border-radius: 30px;
+    border: 1px solid black;
+    min-width: 100px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
